@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ajout d'Article</title>
+</head>
+<body>
+
+<h2>Ajout d'Article</h2>
+
+<form action="article.php" method="post">
+    <label for="titre">Titre :</label>
+    <input type="text" name="titre" required><br>
+
+    <label for="contenu">Contenu :</label>
+    <textarea name="contenu" required></textarea><br>
+
+    <label for="date_publication">Date de Publication :</label>
+    <input type="date" name="date_publication" required><br>
+
+    <input type="submit" value="Ajouter l'Article">
+</form>
+
+</body>
+</html>
